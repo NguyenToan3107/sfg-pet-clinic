@@ -1,12 +1,13 @@
-package com.thomas.sfgpetclinic.sfgpetclinic;
+package com.thomas.sfgpetclinic;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
 class SfgpetclinicApplicationTests {
 
 	@Test
+
 	void contextLoads() {
 	}
 
