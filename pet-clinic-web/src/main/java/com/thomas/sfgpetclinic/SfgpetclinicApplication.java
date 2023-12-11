@@ -1,16 +1,13 @@
 package com.thomas.sfgpetclinic;
 
-import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.extension.ExtendWith;
-import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.context.junit.jupiter.SpringExtension;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@ExtendWith(SpringExtension.class)
-@SpringBootTest
+@SpringBootApplication
 public class SfgpetclinicApplication {
+	public static void main(String[] args) {
 
-	@Test
-	public void contextLoads() {
+		SpringApplication.run(SfgpetclinicApplication.class, args);
+
 	}
-
 }
